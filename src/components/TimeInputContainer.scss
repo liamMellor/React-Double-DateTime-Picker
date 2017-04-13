@@ -1,0 +1,19 @@
+.TimeInputContainer {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	.ReadOnlyInputDisplay {
+		height: 35px;
+		font-size: 14px;
+		cursor: pointer;
+	}
+	&--error .ReadOnlyInputDisplay {
+		color : #b71d30;
+		border: 1px solid #b71d30;
+		padding-left: 10px;
+	}
+
+	@media (min-width: 1200px) {
+		width: 220px;
+	}
+}

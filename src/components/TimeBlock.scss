@@ -1,0 +1,14 @@
+.TimeBlock {
+	background-color: #FFFFFF;
+	&__header, &__content {
+		padding: 10px;
+		border-bottom: 1px solid #EEEEEE;
+	}
+	&__header {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__day {
+		font-weight: bold;
+	}
+}

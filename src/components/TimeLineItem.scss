@@ -1,0 +1,8 @@
+.TimeLineItem {
+	margin-bottom: 5px;
+	color : #1F5EA9;
+	cursor: pointer;
+	&:last-child {
+		margin-bottom: 0px;
+	}	
+}
